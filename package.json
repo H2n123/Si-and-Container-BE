@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "siandcontainerbackend",
   "version": "1.0.0",
   "description": "app membuat data Si dan Container",
@@ -23,7 +22,7 @@
     "sequelize": "^6.35.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0"
-=======
+  },
   "name": "react-redux-hooks-jwt-auth",
   "version": "0.1.0",
   "private": true,
@@ -73,6 +72,5 @@
   },
   "devDependencies": {
     "redux-devtools-extension": "^2.13.8"
->>>>>>> 8a57a34eee5c3848e810ed99f35ba3dbc91362b3
   }
 }

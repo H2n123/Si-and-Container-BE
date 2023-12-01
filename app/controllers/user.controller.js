@@ -142,7 +142,7 @@ exports.deleteUser = async (req, res) => {
 };
 
 exports.allAccess = (req, res) => {
-  res.status(200).send("Public response.");
+  res.status(200).send("Shipping Instruction & Container.");
 };
 
 exports.userBoard = (req, res) => {
