@@ -1,0 +1,111 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 400px !important;
+  padding: 45px 45px;
+}
+
+.card {
+  background-color: #aac7c9a8;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 5px;
+  height: 10px;
+}
+
+/* Style table header */
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd; 
+  height: '20px'
+}
+
+th {
+  background-color: #f2f2f2; 
+}
+
+/* Style alternating rows */
+tr:nth-child(even) {
+  height: '20px';
+  background-color: #f9f9f9;
+}
+
+/* Style hover effect on rows */
+tr:hover {
+  background-color: #aaddf5;
+  height: '20px'
+}
+
+/* Tombol Bulat dengan Warna */
+.round-button {
+  display: inline-block;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 10px; /* Mengatur radius sesuai keinginan */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #567d8f;
+}
+.round-button:hover {
+  opacity:0.8;
+  color: whitesmoke;
+  background-color: darkslategrey;
+}
+
+.round-textbox {
+  display: inline-block;
+  padding: 8px;
+  border: 0.01px solid #567d8f; /* Warna border */
+  border-radius: 5px; /* Mengatur radius sesuai keinginan */
+  outline: none;
+  color: #3b6f88;
+  transition: border-color 0.3s ease; /* Efek transisi warna border saat hover */
+}
+
+.round-textbox:hover {
+  border-color: darkslategrey; /* Warna border saat hover */
+}
+
+/* Style untuk placeholder (teks hint di dalam textbox) */
+.round-textbox::placeholder {
+  color: #a9d4e7;
+}
+
+/* Style untuk teks di dalam textbox */
+.round-textbox:focus {
+  border-color: darkslategrey; /* Warna border saat textbox aktif/fokus */
+}
+
+/* Style untuk teks di dalam textbox saat tidak kosong */
+.round-textbox:not(:placeholder-shown) {
+  border-color: #567d8f;
+}
